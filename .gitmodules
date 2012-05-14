@@ -1,0 +1,3 @@
+[submodule "notes/vendor/nitron"]
+	path = notes/vendor/nitron
+	url = git://github.com/mattgreen/nitron.git
