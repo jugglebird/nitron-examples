@@ -14,6 +14,4 @@ To use:
 4. `cd notes`
 5. `rake`
 
-TODO
-------
-Add NIB-based view loading to show the note
+
