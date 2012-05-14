@@ -9,6 +9,7 @@ Motion::Project::App.setup do |app|
   app.files += Dir.glob(File.join(app.project_dir, 'vendor/nitron/lib/*.rb'))
 
   app.files_dependencies  'app/models/note.rb' => 'vendor/nitron/lib/entity.rb',
-                          'app/controllers/notes_view_controller.rb' => 'vendor/nitron/lib/table_view_controller.rb'
+                          'app/controllers/notes_view_controller.rb' => 'vendor/nitron/lib/table_view_controller.rb',
+                          'app/controllers/note_detail_view_controller.rb' => 'vendor/nitron/lib/controller.rb'
 
 end

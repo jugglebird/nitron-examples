@@ -4,4 +4,8 @@ class NotesViewController < Nitron::TableViewController
   layout do |cell, note|
     cell.textLabel.text = note.subject
   end
+
+  selected do |note|
+    push NoteDetailViewController, :note => note
+  end
 end
