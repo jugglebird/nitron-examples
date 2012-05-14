@@ -3,6 +3,8 @@ nitron-examples
 
 Silly little Notes example application. 
 
+Demonstrates using a TableViewController to bind to a collection of Note entities stored in a CoreData database. Notes are created each time you run the application to demonstrate persistence.
+
 To use:
 ------
 
