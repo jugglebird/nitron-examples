@@ -1,4 +1,4 @@
-describe "Application 'notes'" do
+describe "Application 'tasks'" do
   before do
     @app = UIApplication.sharedApplication
   end
