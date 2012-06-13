@@ -14,7 +14,8 @@ To use:
 ------
 
 1. `git clone git://github.com/mattgreen/nitron-examples.git`
-2. `cd tasks`
-3. `rake`
+2. `cd tasks
+3. `bundle`
+4. `rake`
 
 
